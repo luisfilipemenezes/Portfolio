@@ -41,9 +41,9 @@ export default function Destaque (){
                     </div>
                     <div class="flex-1 flex flex-col 2xl:text-2xl font-open font-light text-base items-start md:pl-6 justify-center">
                             <motion.div
-                                initial={{ opacity: 0, y: 100 }}
+                                initial={{ opacity: 0, y: -100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
-                                exit={{ opacity: 0, y: -100 }}
+                                exit={{ opacity: 0, y: +100 }}
                                 transition={{ duration: 0.5 }} >
                                 <p className="text-emerald-500" ><strong>Invista CG </strong></p>
                                 <p className="md:pt-10 pt-4">A Invista CG é um projeto de extensão do curso de Sistemas de Informação UNIFACISA, tem como objetivo elaborar planos de investimento público, planeja e gerar estratégias de desenvolvimento económico, social e ambiental da cidade de Campina Grande.</p>
