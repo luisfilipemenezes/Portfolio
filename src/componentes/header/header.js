@@ -111,13 +111,13 @@ export default function Example() {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-sm p-2 rounded-md hover:bg-emerald-900 p-2 font-semibold leading-6 text-white">
+          <a href="https://www.canva.com/design/DAFbzehGjx0/EO_NCrhjzl61ucJDQlvGEw/view?utm_content=DAFbzehGjx0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" className="text-sm p-2 rounded-md hover:bg-emerald-900 p-2 font-semibold leading-6 text-white">
           Currículo
           </a>
-          <a href="#" className="text-sm hover:bg-emerald-900 p-2 rounded-md font-semibold leading-6 text-white">
+          <a href="https://github.com/luisfilipemenezes" target="_blank" className="text-sm hover:bg-emerald-900 p-2 rounded-md font-semibold leading-6 text-white">
             GitHub
           </a>
-          <a href="#" className="text-sm  hover:bg-emerald-900 p-2 font-semibold rounded-md leading-6 text-white">
+          <a href="https://www.linkedin.com/in/luis-filipe-11a91b1b5/" target="_blank" className="text-sm  hover:bg-emerald-900 p-2 font-semibold rounded-md leading-6 text-white">
           Linkedin
           </a>
         </PopoverGroup>
