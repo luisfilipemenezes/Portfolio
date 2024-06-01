@@ -21,13 +21,18 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import CrescerCwi from '../../certificados/Crescer-Luis Filipe Silva Menezes.pdf'
+import Accenture from '../../certificados/Certificate Academia Oracle BRM - Luis Filipe Silva Menezes (1).pdf'
+import Scrum from '../../certificados/Certificado Scrum.pdf'
+import Next from '../../certificados/Luís Filipe Silva Menezes - Curso Next.js_ tour pelo Next.js - Alura.pdf'
+import Git from '../../certificados/Luís Filipe Silva Menezes - Curso Git e GitHub_ repositório, commit e versões - Alura.pdf'
 
 const products = [
-  { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
-  { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-  { name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
-  { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-  { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
+  { name: 'CWI Crescer ', description: 'Certificado Crescer Level 1', href: CrescerCwi, icon: ChartPieIcon },
+  { name: 'Accenture ', description: 'Treinamento de Oracle/BRM', href: Accenture, icon: ChartPieIcon },
+  { name: 'Scrum ', description: 'Scrum Fundamentals Certified', href: Scrum, icon: ChartPieIcon },
+  { name: 'Next', description: 'Tour pelo Next.JS', href: Next, icon: ChartPieIcon },
+  { name: 'Git GitHub', description: 'Git GitHub: Repositório,commit e versões', href: Git, icon: ChartPieIcon },
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
@@ -86,7 +91,7 @@ export default function Example() {
                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                       </div>
                       <div className="flex-auto">
-                        <a href={item.href} className="block font-semibold text-gray-900">
+                        <a href={item.href} className="block font-semibold text-gray-900" download>
                           {item.name}
                           <span className="absolute inset-0" />
                         </a>
