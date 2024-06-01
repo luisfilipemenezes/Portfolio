@@ -68,7 +68,7 @@ export default function Example() {
         <PopoverGroup className="hidden  lg:flex lg:gap-x-12">
           <Popover className="relative">
             <PopoverButton className="flex rounded-lg hover:bg-emerald-800 p-2 items-center gap-x-1 text-sm font-semibold leading-6 text-white  ">
-              Projeto de Extensão
+              Certificados
               <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
             </PopoverButton>
 
