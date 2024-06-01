@@ -11,5 +11,11 @@
 
 
 .alturaCompetenciaPag{
-    height: 95vh;
+    height: 75vh;
 }
+
+@media (max-width: 768px) { 
+    .alturaCompetenciaPag{
+        height: 90vh;
+    }
+ }

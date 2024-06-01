@@ -6,7 +6,7 @@ export default function ExpProfissional (){
     return (
         <>
             <div className="alturaCompetenciaPag font-abc tracking-widest md:px-16 px-4 bg-slate-900">
-                <div className=" pt-10 w-full h-full   text-white 2xl:text-xl text-lg abc ">
+                <div className=" md:pt-0 pt-10 w-full h-full   text-white 2xl:text-xl text-lg abc ">
                 <div className="w-full md:h-1/5  h-1/6">
                     <div className="text-emerald-500">
                     <p>
@@ -19,7 +19,7 @@ export default function ExpProfissional (){
                     </p>
                     </div>
               </div>
-              <div className="md:h-3/5 h-4/5  flex md:flex-row flex-col-reverse">
+              <div className="md:h-3/5 h-3/4  flex md:flex-row flex-col-reverse">
                 <div class="flex justify-center md:items-center  items-start md:w-2/5 w-full mx-auto">
                         <div className=' bg-black  w-full'>
                         <img 

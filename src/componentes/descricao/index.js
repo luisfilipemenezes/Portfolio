@@ -20,8 +20,8 @@ export default function DescricaoHomePag(){
                                 className="text-emerald-500 2xl:text-xl text-lg abc" >Olá, meu nome é</p>
                             <p className="text-3xl 2xl:text-4xl  mt-4"><strong>Luis Menezes</strong></p>
                             <p className="mt-4 font-light font-open 2xl:text-2xl text-base">
-                                Sou estudante de Sistemas de Informação UNIFACISA e desenvolvedor front-end. 
-                                <strong>Com experiência de 6 meses</strong>. <div className="mt-4 2xl:text-2xl text-base">Meu objetivo é criar interfaces de usuário (UI) de uma aplicação web ou móvel, garantindo que seja visualmente atraente, funcional e intuitiva. 
+                                Sou desenvolvedor front-end presente no mercado de trabalho há mais de um ano.
+                                <div className="mt-4 2xl:text-2xl text-base">Meu objetivo é criar interfaces de usuário (UI) de uma aplicação web ou móvel, garantindo que seja visualmente atraente, funcional e intuitiva. 
                                 Estou sempre aberto a novas oportunidades e desafios.</div>
                             </p>
 

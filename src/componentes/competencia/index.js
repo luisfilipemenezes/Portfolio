@@ -21,7 +21,7 @@ export default function Competencias() {
               <p>Conhecimentos</p>
             </div>
           </div>
-          <motion.div className="h-4/6 mt-10">
+          <motion.div className="h-4/6  md:mt-10 mt-4">
             <div className="grid md:h-1/3 h-2/4 md:grid-cols-4 grid-cols-2 gap-4">
               <motion.div
                 className="bg-gray-600 rounded-xl"
