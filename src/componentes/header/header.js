@@ -153,7 +153,7 @@ export default function Example() {
                         />
                       </DisclosureButton>
                       <DisclosurePanel className="mt-2 space-y-2">
-                        {[...products, ...callsToAction].map((item) => (
+                        {[...products].map((item) => (
                           <DisclosureButton
                             key={item.name}
                             as="a"
@@ -168,19 +168,19 @@ export default function Example() {
                   )}
                 </Disclosure>
                 <a
-                  href="#"
+                  href="https://www.canva.com/design/DAFbzehGjx0/EO_NCrhjzl61ucJDQlvGEw/view?utm_content=DAFbzehGjx0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Currículo
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/luisfilipemenezes"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   GitHub
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/luis-filipe-11a91b1b5/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Linkedin
